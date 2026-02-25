@@ -6,7 +6,13 @@ public class Saludo{
         int edad; 
 
         System.out.println("Dime tu nombre:");
-        
+        nombre = ingreso.nextLine(); 
+
+        System.out.println("Dime tu edad: ");
+        edad = ingreso.nextInt(); 
+
+        System.out.println("Tu nombre es "+ nombre); 
+        System.out.println("Tu edad es: "+ edad);
 
     }
 }
